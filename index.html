@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Todos:</h1>
+    <input id="filter-todo" type="text" placeholder="Search in todos">
+    <label><input type="checkbox" id="hide-checkbox" name="hideCompleted">Hide Completed</label>
+    <div id="todos-div">
+
+    </div>
+
+    <br>
+    <form id="addTodo-form">
+        <input type="text" name="newTodo" placeholder="Enter new something todo"
+            style="display:inline-block; width:250px">
+        <button>Add Todo</button>
+    </form>
+
+    <script src="uuid.js"></script>
+    <script src="todo-functions.js"></script>
+    <script src="todo-app.js"></script>
+</body>
+
+</html>
