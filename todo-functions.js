@@ -29,6 +29,7 @@ const removeTodo = function(id) {
 	}
 };
 
+// function to reverse todo.completed for a specific todo
 const toggleTodo = function(id) {
 	const findedIndex = todosObjects.findIndex(function(todo) {
 		return todo.id === id;
